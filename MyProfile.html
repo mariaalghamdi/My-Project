@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information and document settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maria's portfolio showcasing projects, skills, and experience in IT.">
+    <title>Maria's Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation menu linking to different sections -->
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header section with about me info -->
+    <header>
+      <section id="about-me" class="about-me-section">
+        <div class="profile-wrapper">
+            <div class="profile-left">
+                <!-- Profile picture -->
+                <img src="profile.jpg" alt="My Profile picture" class="profile-pic">
+                <!-- Short profile description -->
+                <p class="profile-text">I am Maria, an IT graduate ready to contribute to the tech world.</p>
+                <!-- LinkedIn profile link -->
+                <p>LinkedIn: <a href="www.linkedin.com/in/maria-alghamdi-493910248" target="_blank"> Marialghamdi</a></p>
+            </div>
+            <div class="profile-right">
+                <!-- About me text section -->
+                <h2>A Bit About Me</h2>
+                <p>My name is Maria, and I'm passionate about technology and problem-solving. With several projects, I'm skilled in HTML, CSS, JavaScript, and more. I strive for excellence in everything I do.</p>
+            </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Main content container -->
+    <main class="container">
+
+        <!-- Projects section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <!-- First project: Graduation Project -->
+                <h3>Graduation Project</h3>
+                <img src="grad.jpg" alt="Screenshot of the Hospital Appointment web app" height="100px" width="10px">
+                <p>Hi Dr is a hospital appointment booking web app designed to streamline the process of scheduling medical consultations. It allows patients to easily book, reschedule, or cancel appointments with doctors based on availability, specialty, or location.</p>
+                <!-- GitHub link for project -->
+                <a href="https://github.com/mariaalghamdi" target="_blank">GitHub Repo</a>
+            </div>
+            <div class="project">
+                <!-- Second project: Cooking Web App -->
+                <h3>Cooking Web App</h3>
+                <img src="cookingproject.jpg" alt="Screenshot of my cooking project" height="250px" width="400px">
+                <p>A cooking web app allows users to discover, upload, and manage recipes. Key features include recipe search by ingredients or preferences, user recipe submissions, a grocery list generator, and a meal planner.</p>
+                <a href="https://github.com/mariaalghamdi" target="_blank">GitHub Repo</a>
+            </div>
+        </section>
+
+        <!-- Skills section listing technical and soft skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>Communication</li>
+                <li>Adaptability</li>
+                <li>Teamwork</li>
+            </ul>
+        </section>
+
+        <!-- Experience section detailing Tamheer training -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Tamheer Training Experience – Project Management Specialist (6 Months)</h3>
+                <p>During my six-month training in the Tamheer program as a Project Management Specialist, I had the opportunity to gain hands-on experience in project management processes and methodologies. My role involved coordinating various project activities and ensuring alignment with organizational goals.</p>
+            </div>
+        </section>
+
+        <!-- Contact section with a form for visitors -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Maria@gmail.com">Maria@gmail.com</a></p>
+
+            <!-- Contact form -->
+            <form action="submit_form.php" method="POST" aria-label="Contact Form">
+                <!-- Input fields for contact information -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required placeholder="Subject">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                
+                <!-- Submit button -->
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Map section showing location -->
+        <section id="map">
+            <hr>
+            <h2>Find Me Here</h2>
+            <!-- Embedded Google map -->
+            <iframe title="google map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28988.215328804625!2d46.6812928!3d24.743116800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssa!4v1728565799213!5m2!1sen!2ssa" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>
